@@ -26,6 +26,9 @@ jobs:
       - name: Executar testes
         run: poetry run task test
 
+      - name: Oi sergio
+        run: echo "oi sergio"
+
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
       SECRET_KEY: ${{ secrets.SECRET_KEY }}
