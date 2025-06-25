@@ -10,7 +10,7 @@ from fastapi_zero.schemas import Message
 if sys.platform == 'win32':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
-app = FastAPI(title='Minha API BALA!')
+app = FastAPI(title='Depois do CD!')
 
 app.include_router(auth.router)
 app.include_router(users.router)
